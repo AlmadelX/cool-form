@@ -20,36 +20,48 @@
           </div>
         </div>
         <div class="form-area">
-          <p>
+          <p class="agitation">
             Our site is the best, so you definitely should sign up to it. You'll get a lot of benefits after doing that, so you really should sign up. Come on!
           </p>
-          <p>Just do it!</p>
+          <p class="agitation">Just do it!</p>
           <form action="#">
             <fieldset class="form">
               <h2>Let's quickly sign you up</h2>
               <div class="inputs">
-                <label for="fist-name">First name</label>
-                <input type="text" name="first_name" id="first-name">
+                <div class="input">
+                  <label for="first-name">First name</label>
+                  <input type="text" name="first_name" id="first-name" required>
+                </div>
 
-                <label for="last-name">Last name</label>
-                <input type="text" name="last_name" id="last-name">
+                <div class="input">
+                  <label for="last-name">Last name</label>
+                  <input type="text" name="last_name" id="last-name" required>
+                </div>
 
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
+                <div class="input">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" required>
+                </div>
 
-                <label for="phone-number">Phone number</label>
-                <input type="tel" name="phone_number" id="phone-number">
+                <div class="input">
+                  <label for="phone-number">Phone number</label>
+                  <input type="tel" name="phone_number" id="phone-number">
+                </div>
 
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password">
+                <div class="input">
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password" required>
+                </div>
 
-                <label for="confirm-password">Confirm password</label>
-                <input type="password" name="confirm_password" id="confirm-password">
+                <div class="input">
+                  <label for="confirm-password">Confirm password</label>
+                  <input type="password" name="confirm_password" id="confirm-password">
+                </div>
               </div>
             </fieldset>
 
             <button type="submit">Create Account</button>
-            <p>Already have an account? <a href="#">Log in</a></p>
+            <p class="suggestion">Already have an account? <a href="#">Log in</a></p>
           </form>
         </div>
       </div>

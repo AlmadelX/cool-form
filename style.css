@@ -9,8 +9,13 @@ body, h1, h2, p {
   margin: 0;
 }
 
+label, input {
+  display: block;
+}
+
 .container {
   background-color: #CCC;
+  padding: 0 16px;
 }
 
 .content {
@@ -67,4 +72,70 @@ body, h1, h2, p {
 
 .form-area {
   flex: 1;
+  background-color: #EEE;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.agitation {
+  margin-bottom: 32px;
+  padding: 0 32px;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.form {
+  margin: 32px 0;
+  padding: 16px 32px;
+  background-color: white;
+  border: none;
+  box-shadow: -10px 0 10px 4px rgb(0, 0, 0, 0.2);
+}
+
+.form h2 {
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 16px;
+  column-gap: 64px;
+}
+
+.input label {
+  text-transform: uppercase;
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.input input {
+  border-radius: 4px;
+  border: 2px solid #E5E7EB;
+  width: 250px;
+}
+
+form button {
+  margin: 0 32px;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 32px;
+  appearance: none;
+  background-color: steelblue;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.suggestion {
+  margin: 16px 32px;
+}
+
+.suggestion a {
+  text-decoration: none;
+  color: steelblue;
 }
