@@ -8,6 +8,51 @@
     <title>SignUp Form</title>
   </head>
   <body>
-    <h1>Sign Up Form</h1>
+    <div class="container">
+      <div class="content">
+        <div class="image-area">
+          <div class="logo">
+            <img src="images/logo.svg" alt="Rock gesture">
+            <h1>Cool Form</h1>
+          </div>
+          <div class="photo-credits">
+            Photo by <a href="https://unsplash.com/fr/@nikwes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Iliasov</a> on <a href="https://unsplash.com/photos/i0fCUofGjV8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+          </div>
+        </div>
+        <div class="form-area">
+          <p>
+            Our site is the best, so you definitely should sign up to it. You'll get a lot of benefits after doing that, so you really should sign up. Come on!
+          </p>
+          <p>Just do it!</p>
+          <form action="#">
+            <fieldset class="form">
+              <h2>Let's quickly sign you up</h2>
+              <div class="inputs">
+                <label for="fist-name">First name</label>
+                <input type="text" name="first_name" id="first-name">
+
+                <label for="last-name">Last name</label>
+                <input type="text" name="last_name" id="last-name">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <label for="phone-number">Phone number</label>
+                <input type="tel" name="phone_number" id="phone-number">
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+
+                <label for="confirm-password">Confirm password</label>
+                <input type="password" name="confirm_password" id="confirm-password">
+              </div>
+            </fieldset>
+
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
