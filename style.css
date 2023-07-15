@@ -118,6 +118,15 @@ label, input {
   width: 250px;
 }
 
+.input input:focus {
+  outline: none;
+  border: 2px solid blue;
+}
+
+.input input:invalid:not(:placeholder-shown) {
+  border: 2px solid red;
+}
+
 form button {
   margin: 0 32px;
   border-radius: 8px;
